@@ -1,0 +1,88 @@
+Задание 12
+
+1 зад
+
+import java.util.Scanner;
+
+public class SwitchDemo {
+public static void main(String[] args) {
+
+Scanner scan = new Scanner(System.in);
+
+int ArabInt = scan.nextInt();
+
+
+
+String RomeString;
+switch (ArabInt) {
+case 1: RomeString = "I";
+break;
+case 2: RomeString = "II";
+break;
+case 3: RomeString = "III";
+break;
+case 4: RomeString = "IV";
+break;
+case 5: RomeString = "V";
+break;
+case 6: RomeString = "VI";
+break;
+case 7: RomeString = "VII";
+break;
+case 8: RomeString = "VIII";
+break;
+case 9: RomeString = "IX";
+break;
+case 10: RomeString = "X";
+break;
+case 11: RomeString = "XI";
+break;
+case 12: RomeString = "XII";
+break;
+case 13: RomeString = "XIII";
+break;
+case 14: RomeString = "XIV";
+break;
+case 15: RomeString = "XV";
+break;
+case 16: RomeString = "XVI";
+break;
+case 17: RomeString = "ZVII";
+break;
+case 18: RomeString = "XVIII";
+break;
+case 19: RomeString = "XIX";
+break;
+case 20: RomeString = "XX";
+break;
+case 21: RomeString = "XXI";
+break;
+case 22: RomeString = "XXII";
+break;
+case 23: RomeString = "XXIII";
+break;
+case 24: RomeString = "XXIV";
+break;
+case 25: RomeString = "XXV";
+break;
+
+
+default: RomeString = "NullPointer or Dismatch";
+break;
+}
+System.out.println(RomeString);
+}
+}
+
+2 зад
+
+public class Main {
+public static void main(String[] args) {
+
+for (int i = 1; i <= 999; i++) {
+if ((i % 10) == (i/100 % 10))
+System.out.println(i);
+}
+
+}
+}
